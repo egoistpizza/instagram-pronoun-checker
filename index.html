@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronoun Word Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌈 Pronoun Word Builder</h1>
+            <p>Kelimeleri pronounlarla oluşturabilir misiniz kontrol edin!</p>
+        </header>
+
+        <main>
+            <div class="menu-section">
+                <div class="card">
+                    <h2>📝 Kelime Kontrol Et</h2>
+                    <p>Bir kelime girin ve pronounlarla yazılıp yazılamayacağını öğrenin</p>
+                    <div class="input-group">
+                        <input type="text" id="wordInput" placeholder="Kelime girin..." autocomplete="off">
+                        <button id="checkWord">Kontrol Et</button>
+                    </div>
+                    <div id="result" class="result"></div>
+                </div>
+
+                <div class="card">
+                    <h2>📋 Pronoun Listesi</h2>
+                    <p>Kullanılabilen tüm pronounları görüntüleyin</p>
+                    <button id="showPronouns">Pronoun Listesini Göster</button>
+                    <div id="pronounList" class="pronoun-list"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 egoistpizza</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
